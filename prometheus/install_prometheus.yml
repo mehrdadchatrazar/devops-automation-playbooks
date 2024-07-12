@@ -1,0 +1,6 @@
+---
+- name: Install and configure Prometheus
+  hosts: prometheus_servers
+  become: yes
+  roles:
+    - prometheus
